@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Rap 91"
+  short_description: "把任意中文知识文案固定生成91 BPM快嘴知识说唱"
+  default_prompt: "Use $knowledge-rap-91 to turn my Chinese knowledge script into a fixed 91 BPM rap with vocals, backing music, and timing data."
