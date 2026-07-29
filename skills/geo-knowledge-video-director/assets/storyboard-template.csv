@@ -1,0 +1,3 @@
+scene_id,start_hint,end_hint,source_text,knowledge_step,visual_state,semantic_animation,audio_trigger,caption_emphasis,status
+SC01,0,3,,,,,,,pending
+

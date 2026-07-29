@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO 知识短视频总导演"
+  short_description: "从原文到说唱、分镜、字幕和逐字验收的完整生产工作流"
+  default_prompt: "Use $geo-knowledge-video-director to turn my unchanged GEO article into a verified knowledge-rap short video production package."

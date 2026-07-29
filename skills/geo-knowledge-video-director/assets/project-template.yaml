@@ -1,0 +1,31 @@
+project:
+  id: ""
+  title: ""
+  topic: GEO
+  platform: douyin
+  aspect_ratio: "9:16"
+  target_duration_seconds: 60
+  source_text: "source/original.txt"
+  source_sha256: ""
+
+audio:
+  bpm: 91
+  meter: "4/4"
+  max_intro_seconds: 2
+  segment_seconds: [8, 20]
+  primary_route: segmented_singing
+  fallback_route: controlled_rhythmic_voice
+  transcript_required: true
+
+visual:
+  style: dark_cinematic_knowledge
+  state_change_seconds: [2, 4]
+  semantic_animation_required: true
+  safe_area_bottom_percent: 8
+
+quality:
+  exact_text_required: true
+  proprietary_terms_required: true
+  full_audio_retranscription_required: true
+  block_export_on_pending: true
+
