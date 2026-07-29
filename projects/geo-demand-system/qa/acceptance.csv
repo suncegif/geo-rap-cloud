@@ -1,8 +1,8 @@
 segment_id,candidate,transcript,terms_check,no_adlibs,intro_ok,rhythm_ok,visual_ok,caption_match,status,issues
-S01,7996bebee3,"品牌做GEO最怕的不是没内容，而是内容很多，但回答的都不是关键问题。",pending,true,true,true,true,true,listening_check,"ASR initially merged G E O as SEO; transcript display corrected to GEO. Final listening check required."
-S02,f707eddd4e,"没有需求体系，常见的结果只有三种。讲了很多，但都不在用户决策点上。有流量，但来的不是精准客户。",true,true,true,true,true,true,pass,
-S03,5ddaac5916,"内容发了很多AI还是不知道你该推荐给谁所以需求体系这一步本质是在解决三个问题",true,true,true,true,true,true,pass,
-S04,77c70f8ab3,"第一，找到用户真正会问的问题，不是我们觉得重要，是市场真的会问，真的会拿来做决策的问题。",true,true,true,true,true,true,pass,
-S05,9242e2056c,"第二，找到和品牌优势最匹配的问题。不是所有需求都要打，而是要找到你最有机会赢的那一批。",true,true,true,true,true,true,pass,
-S06,52861c7968,"第三，找到既有流量又有转化的问题。只谈流量不行，只谈专业也不行。真正要的是有需求的人正在问，而且你能解决。",true,true,true,true,true,true,pass,
-S07,6a82a42479,"一句话总结，需求体系不是扩散，而是聚焦。",true,true,true,true,true,true,pass,
+S01,7996bebee3,"品牌做GEO最怕的不是没内容，而是内容很多，但回答的都不是关键问题。",pending,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."
+S02,f707eddd4e,"没有需求体系，常见的结果只有三种。讲了很多，但都不在用户决策点上。有流量，但来的不是精准客户。",true,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."
+S03,5ddaac5916,"内容发了很多AI还是不知道你该推荐给谁所以需求体系这一步本质是在解决三个问题",true,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."
+S04,77c70f8ab3,"第一，找到用户真正会问的问题，不是我们觉得重要，是市场真的会问，真的会拿来做决策的问题。",true,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."
+S05,9242e2056c,"第二，找到和品牌优势最匹配的问题。不是所有需求都要打，而是要找到你最有机会赢的那一批。",true,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."
+S06,52861c7968,"第三，找到既有流量又有转化的问题。只谈流量不行，只谈专业也不行。真正要的是有需求的人正在问，而且你能解决。",true,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."
+S07,6a82a42479,"一句话总结，需求体系不是扩散，而是聚焦。",true,true,true,false,true,true,retry,"TTS rhythm voice is not singing. Replace with a singing-model candidate."

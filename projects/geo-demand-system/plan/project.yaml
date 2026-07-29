@@ -20,7 +20,7 @@ audio:
   fallback_route: controlled_rhythmic_voice
   transcript_required: true
   selected_voice: yunzhou
-  selected_route: controlled_rhythmic_voice
+  selected_route: controlled_rhythmic_voice_preview_only
   music_asset_id: f1ac62a5-a1dd-4eb3-90e8-1ac49ae985fc
 
 visual:
@@ -35,4 +35,4 @@ quality:
   proprietary_terms: [GEO, AI, 需求体系]
   full_audio_retranscription_required: true
   block_export_on_pending: true
-  export_status: blocked_pending_s01_listening_check
+  export_status: blocked_not_real_singing
