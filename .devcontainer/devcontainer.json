@@ -1,0 +1,16 @@
+{
+  "name": "ACE-Step 1.5 cloud debug",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/uv:1": {}
+  },
+  "postCreateCommand": "uv sync",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
